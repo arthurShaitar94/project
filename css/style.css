@@ -1,0 +1,189 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+
+.head-nav{
+    background-color: #212121;
+    position: relative;
+}
+
+.head-menu{
+    height: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.head-menu .menu_item{
+    border-right: 2px dashed black;
+    padding-right: 33px;
+}
+
+.head-menu .menu_item:last-child{
+    border-right: none;
+}
+
+
+.menu_item .menu_link{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 8px 0;
+}
+/* subheader */
+.subheader{
+    min-height: 84px;
+    background: rgba(0,0,0, .6);
+    position: absolute;
+    width: 100%;
+}
+
+.subheader .subheader_logo{
+    margin-top: 16px;
+}
+
+.subheader_offical{
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.subheader_call{
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+.subheader_tel{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.subheader_btn, .promo_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 4px;
+    outline: none;
+}
+
+/* section_promo */
+.promo{
+    background: url(../img/promo/promo_bg.png) center center/cover no-repeat;
+    min-height: 799px;
+    text-align: center;
+    padding-top: 151px;
+}
+.promo_header{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.promo_subheader{
+    font-size: 36px;
+    
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 15px
+
+    }
+
+.discription_text{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.promo_btn{
+    margin-top: 118px;
+}
+
+/* advantages */
+.advantages{
+    padding: 70px 0 65px;
+    height: 900px;
+}
+
+.advantages_title{
+    width: 112px;
+    background-color: #000000;
+    padding: 8px 11px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+}
+
+
+.advantages-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+
+.advantages_text{
+    color: #222222;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.advantages_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    margin-right: 26px;
+}
+
+.advantages-icon_text{
+    max-width: 341px;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.advantages-icon_text span{
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+

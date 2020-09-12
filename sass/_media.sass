@@ -1,0 +1,118 @@
+@media (max-width: 1200px)
+	.promo
+		&_header
+			font-size: 50px
+			
+	.advantages-icon_text
+		max-width: 296px		
+
+@media (max-width: 991px)
+	.head-menu
+		.menu_item
+			padding-right: 8px
+			.menu_link
+				font-size: 11px
+
+	.subheader
+		&_logo
+			img
+				width: 100%
+		&_tel
+			font-size: 20px	
+
+	.promo
+		&_header
+			font-size: 40px
+
+	.advantages
+		&-item
+			flex-direction: column
+			justify-content: flex-start
+			.advantages_icon
+				margin-bottom: 20px
+
+@media (max-width: 762px)
+	.head-menu
+		margin-left: -369px
+		position: fixed
+		top: 0
+		left: 0
+		z-index: 1
+		flex-direction: column
+		width: 50%
+		height: 100vh
+		background-color: rgba(0,0,0, .8)
+	.active
+		margin-left: 0
+		.menu_item
+			padding: 0
+			border: none
+			
+	.hamburger
+		display: block
+		position: absolute
+		z-index: 1
+		top: 6px
+		// transform: translateY(-50%)
+		right: 20px
+		width: 26px
+		height: 50px
+		transition: all 1s ease-out
+		span
+			display: block
+			width: 26px
+			height: 2px
+			background: #ffffff
+			margin-bottom: 2px
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: rotate(45deg)
+	.promo_header
+		font-size: 30px
+		
+	.promo_subheader
+		font-size: 29px
+
+
+	.xs-hidden
+		display: none	
+	.xs-visible
+		display: block
+	.advantages_icon
+		margin-right: 0				
+@media ( max-width: 576px)
+	// .xs-hidden
+	// 	display: none	
+	// .xs-visible
+	// 	display: block	
+	.subheader
+		height: 60px
+		&_logo
+			margin-top: 30px
+		&_offical
+			display: none
+			margin-top: 20px
+
+		&_tel
+			font-size: 17px	
+		&_btn
+			width: 148px
+			height: 38px
+	.promo
+		&_header
+			font-size: 35px
+			margin-bottom: 20px
+		.discription_text
+			display: none
+		&_btn
+			width: 254px
+			height: 71px
+	.advantages
+		.title
+			font-size: 21px			
